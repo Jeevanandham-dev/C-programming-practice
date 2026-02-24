@@ -12,8 +12,8 @@ int main() {
     }
     for (int i=0;i<n;i++) {
         int isPalindrome = 1;
-        for (int j=0;j<m/2;j++) {
-            if (arr[i][j]!=arr[i][m-1-j]) {
+        for (int j=0;j<m/2-1;j++) {
+            if (arr[i][j]!=arr[i][m-j]) {
                 isPalindrome=0;
                 break;
             }
