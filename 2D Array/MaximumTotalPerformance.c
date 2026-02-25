@@ -21,6 +21,6 @@ int main() {
             maxCol = j;
         }
     }
-    printf("%d\n", maxCol);
+    printf("%d", maxCol);
     return 0;
 }
